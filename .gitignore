@@ -1,0 +1,18 @@
+# Ignorar arquivos de ambiente e dados grandes
+.env
+*.csv
+*.xlsx
+*.parquet
+*.db
+
+# Ignorar arquivos do Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de ambiente virtual
+venv/
+env/
